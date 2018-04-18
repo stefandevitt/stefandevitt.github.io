@@ -1,7 +1,417 @@
-.container{
-width:960px;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+h1{
+    font-size: 35px;
+    color: mediumblue;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+ font-size: 50px;
+color: mediumblue;
+font-family: 'Indie Flower', cursive;
+}
+
+h3{
+font-size: 20px;
+color: mediumblue;
+}
+a{
+color: mediumblue;
+}
+
+p{ 
+    font-size: 1rem;
+}
+
+.header{
+background-color: #37b54a;
+margin-top: 50px;
+height: 100px;
+width: 1100px;
 margin-left: auto;
+margin-right: auto;
+}
+
+.logo{
+height: 100px;
+width: 100px;
+float: left;
+
+}
+
+.heading{
+    height: 100px;
+    width: 995px;
+    margin-left: 124px;
+    font-family: sans-serif;
+}
+
+.nav{
+max-width: 950px;
+width: 560px;
+height: 45px;
+padding-left: 10px;
+padding-right: 25px;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Indie Flower', cursive;
+float: right;
+color: azure;
+}
+
+
+.nav a {
+color: mediumblue;
+font-size: 1.03rem;
+}
+
+.nav a:hover{
+color:#FFFFFF;
+}
+
+.bannerintro{
+width: 1100px;
+height: 80px;
 margin-right:auto;
-background-color: red;
-min-height:100px;
+margin-left: auto;
+margin-top: 30px;
+background-color:#37b54a;
+}
+
+.textbox1{
+height: 150px;
+width: 1055px;
+padding: 15px;
+margin-top: 10px;
+margin-left:auto;
+margin-right: auto;
+font-size: 1rem;
+text-shadow: -1px -1px 10px white;
+font-family: 'Kalam', cursive;
+}
+
+.slideshow{
+width: 1080px;
+height: 500px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+}
+
+.about{
+width: 1100px;
+height: 800px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+
+}
+
+.bannerabout{
+width: 1100px;
+height: 80px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+background-color:#37b54a;
+}
+
+.raromap{
+width: 300px;
+height: 330px;
+margin-top: 10px;
+float: left;
+}
+
+.textbox2{
+width: 755px;
+height: 390px;
+margin-top:10px;
+float:right;
+padding-left: 15px;
+text-shadow: -1px -1px 10px white;
+font-size: 0.2rem;
+font-family: 'Kalam', cursive;
+}
+
+.scooterphotos{
+width: 1100px;
+height: 350px;
+margin-top: 30px;
+float: right;    
+}
+
+.scooterphoto1{
+width: 250px;
+height: 250px;
+float: left;
+margin-left: 0px;
+
+}
+
+.scooterphoto2{
+width: 250px;
+height: 250px;
+float: left;
+margin-left: 30px;
+
+}
+
+.landscape{
+width: 250px;
+height: 250px;
+float: left;
+margin-left: 30px;
+}
+
+.sup{
+width: 250px;
+height: 250px;
+float: left;
+margin-left: 40px;
+}
+
+.bannerattractions{
+width: 1100px;
+height: 80px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 10px;
+background-color:#37b54a;
+}
+.attractions{
+width: 1100px;
+height: 800px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+}
+
+.textbox3{
+width: 1100px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+text-shadow: -1px -1px 10px white;
+padding-left: 5px;
+font-family: 'Kalam', cursive;
+}
+
+.kokacruisevid1{
+height: 350px;
+width: 250px;
+border-color: mediumblue;
+float: right;
+}
+
+.kokacruisevid2{
+height: 350px;
+width: 250px;
+border-color: mediumblue;
+float: left;
+}
+
+.kokabandpic{
+height: 270px;
+width: 450px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.textbox4{
+width: 1100px;
+height: 540px;
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+text-shadow: -1px -1px 10px white;
+padding-left: 5px;
+font-family: 'Kalam', cursive;
+}
+
+.mensdance{
+height: 350px;
+width: 380px;
+float: left;
+margin-left: 0px;
+margin-right:30px;
+}
+
+.showtime{
+height:400px;
+width:270px;
+float: right;
+margin-right:40px;
+
+}
+
+.buffetdinner{
+height: 350px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.textbox5{
+width: 1100px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+text-shadow: -1px -1px 10px white;
+padding-left: 5px;
+font-family: 'Kalam', cursive;
+}
+
+.buggyvid1{
+width: 200px;
+height: 350px;
+float: left;
+}
+
+.buggypic1{
+width: 380px;
+height: 350px;
+float:right;
+margin-right:10px;
+}
+
+.buggyguide{
+width: 450px;
+height: 350px;
+margin-left: 230px;
+}
+
+.bannerthingstoexperience{
+width: 1100px;
+height: 80px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+background-color:#37b54a;
+border-bottom: black;
+}
+
+.experiences{
+width: 1100px;
+height: 1400px;
+margin-left: auto;
+margin-right: auto;
+border-bottom: black;
+}
+
+.textbox6{
+width: 250px;
+height: 550px;
+float: left;
+font-size: 1rem;
+text-shadow: -1px -1px 10px white;
+font-family: 'Kalam', cursive;
+}
+
+.mansbestfriend{
+width: 350px;
+height: 300px;
+float: right; 
+margin-right:20px;
+}
+
+.palace{
+width: 350px;
+height: 300px;
+margin-left: 280px;
+}
+
+.familylunch{
+width: 350px;
+height: 300px;
+float: right; 
+margin-right:20px;
+margin-top: 20px;
+}
+
+.beachdad{
+width: 400px;
+height: 300px;
+margin-left:290px;
+margin-top:30px;
+}
+
+.rarojoust{
+width: 500px;
+height: 400px;
+float: right; 
+margin-right:20px;
+margin-top:5px;
+}
+
+.earlymorning{
+width: 450px;
+height: 300px;
+margin-left:20px;
+margin-top:30px;
+}
+
+.sunrise{
+height:300px;
+width: 450px;
+margin-top:60px;
+margin-left:40px;
+float: left;
+}
+
+.dogsbeach{
+width: 500px;
+height: 300px;
+float: right;
+margin-top:20px;
+margin-right:40px;
+}
+
+.moreinfobanner{
+width: 1100px;
+height: 80px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+background-color:#37b54a;
+}
+
+.moreinfo{
+width: 1100px;
+height: 570px;
+margin-right:auto;
+margin-left: auto;
+margin-top: 30px;
+}
+
+.textbox7{
+width: 800px;
+height: 250px;
+float:right;
+text-shadow: -1px -1px 10px white;
+font-family: 'Kalam', cursive;
+}
+
+.contact{
+height:250px;
+width=250px;
+margin-left: 0px;
+float:left;
+}
+
+.footer{
+height: 280px;
+width: 1200px;
+margin-left:auto;
+margin-right: auto;
+float: left;
+}
+.footer img {
+margin-left: 300px;
+margin-top: 10px;
 }
